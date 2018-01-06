@@ -6,7 +6,7 @@ Get directories - node module
 
 ```javascript
 
-  var d = require('./')
+  var d = require('node-directories')
 
   > d()
   [ 'Applications',
