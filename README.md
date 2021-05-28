@@ -2,12 +2,6 @@
 
 Get directories - node module
 
-## Changes
-
-### v2
-
-- Cleanup
-
 ## Usage
 
 ```javascript
