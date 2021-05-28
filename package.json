@@ -1,6 +1,6 @@
 {
   "name": "node-directories",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Get directories - node module",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitfaf/node-directories.git"
+    "url": "git+https://github.com/iamanubhavsaini/node-directories.git"
   },
-  "keywords": [ "directories", "node module", "root directories" ],
-  "author": "Git Faf <git.faf@gmail.com>",
+  "keywords": [
+    "directories",
+    "node module",
+    "root directories"
+  ],
+  "author": "Anubhav",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitfaf/node-directories/issues"
+    "url": "https://github.com/iamanubhavsaini/node-directories/issues"
   },
-  "homepage": "https://github.com/gitfaf/node-directories#readme"
+  "homepage": "https://github.com/iamanubhavsaini/node-directories#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.7.6",
+    "@types/node": "^15.6.1"
+  }
 }

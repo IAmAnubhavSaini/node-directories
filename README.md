@@ -2,14 +2,20 @@
 
 Get directories - node module
 
+## Changes
+
+### v2
+
+- Cleanup
+
 ## Usage
 
 ```javascript
 
-  var d = require('node-directories')
+var d = require('node-directories')
 
-  > d()
-  [ 'Applications',
+d()
+    ['Applications',
     'Developer',
     'Library',
     'Network',
@@ -24,13 +30,16 @@ Get directories - node module
     'opt',
     'private',
     'sbin',
-    'usr' ]
+    'usr']
 
-  > d('./')
-  [ '.git' ]
+d('./')
+    ['.git']
 
 ```
 
 ## License
 
-MIT &copy; 2018 git.faf
+MIT
+
+- &copy; 2018 git.faf
+- &copy; 2021 Anubhav
